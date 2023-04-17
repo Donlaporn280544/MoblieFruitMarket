@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/pop_Img"
+            android:layout_width="272dp"
+            android:layout_height="219dp" />
+
+        <TextView
+            android:id="@+id/pop_name"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_margin="5dp"
+            android:maxLines="1"
+
+            android:text="Popular products" />
+
+        <TextView
+            android:id="@+id/pop_des"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:maxLines="1"
+            android:text="Description" />
+
+        <ImageView
+            android:id="@+id/pop_star"
+            android:layout_width="72dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/star" />
+
+        <TextView
+            android:id="@+id/pop_rating"
+            android:layout_width="48dp"
+            android:layout_height="22dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="3dp"
+            android:text="5.0" />
+
+        <TextView
+            android:id="@+id/pop_discount"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:text="Discount 20 % off"
+            android:textColor="@color/teal_200" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
