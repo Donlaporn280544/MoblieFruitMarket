@@ -19,13 +19,17 @@ public class ShoppingFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
+
         ShoppingViewModel shoppingViewModel =
                 new ViewModelProvider(this).get(ShoppingViewModel.class);
 
         binding = FragmentShoppingBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
+<<<<<<<<< Temporary merge branch 1
 
+=========
+>>>>>>>>> Temporary merge branch 2
         return root;
     }
 
