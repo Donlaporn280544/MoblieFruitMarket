@@ -15,6 +15,7 @@ public class AccountViewModel extends ViewModel {
         mText.setValue("This is account fragment");
     }
 
+
     public LiveData<String> getText() {
         return mText;
     }
