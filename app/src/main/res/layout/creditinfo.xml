@@ -20,7 +20,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Name"
-        android:background="@color/material_dynamic_secondary70"
 
         />
     <EditText
@@ -36,7 +35,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="LastName"
-        android:background="@color/material_dynamic_secondary70"
         />
     <EditText
         android:layout_width="match_parent"
@@ -51,7 +49,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Card number"
-        android:background="@color/material_dynamic_secondary70"
         />
 
     <EditText
@@ -67,7 +64,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Date"
-        android:background="@color/material_dynamic_secondary70"
          />
 
     <EditText
@@ -84,7 +80,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="CVC"
-        android:background="@color/material_dynamic_secondary70"
         />
 
     <EditText

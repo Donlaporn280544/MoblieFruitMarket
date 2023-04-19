@@ -12,8 +12,10 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <ImageView
             android:id="@+id/imageView2"
@@ -52,14 +54,14 @@
                 android:id="@+id/add_quantity"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
-                android:text="เพิ่มสินค้า"
-                android:layout_marginRight="10dp"/>
+                android:layout_marginRight="10dp"
+                android:text="เพิ่มสินค้า" />
 
             <Button
                 android:id="@+id/delete_quantity"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
-                android:text="ลบสินคา"/>
+                android:text="ลบสินคา" />
         </LinearLayout>
 
     </LinearLayout>
