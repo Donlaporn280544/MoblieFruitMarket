@@ -103,9 +103,9 @@ public class HomeFragment extends Fragment {
                     .centerCrop()
                     .into(pop_Img);
             pop_des.setText(fruit.getDescription());
-            pop_name.setText(fruit.getDescription());
-            pop_rating.setText(fruit.getDescription());
-            pop_discount.setText(fruit.getDescription());
+            pop_name.setText(fruit.getName());
+            pop_rating.setText(fruit.getRating());
+            pop_discount.setText(fruit.getDiscount());
         }
     }
     @Override

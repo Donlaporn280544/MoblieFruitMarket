@@ -30,13 +30,13 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ชื่อสินค้า" />
+            android:text="มังคุด" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ราคาสินค้า" />
+            android:text="100" />
 
 
         <LinearLayout
@@ -48,7 +48,7 @@
                 android:id="@+id/textView5"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:text="จำนวนสินค้า" />
+                android:text="จำนวนสินค้า 1" />
 
             <Button
                 android:id="@+id/add_quantity"

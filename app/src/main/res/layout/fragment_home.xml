@@ -54,10 +54,10 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/pop_rec"
-            tools:listitem="@layout/popular_item"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp" />
+            android:layout_height="508dp"
+            android:layout_margin="5dp"
+            tools:listitem="@layout/popular_item" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -88,12 +88,6 @@
 
 
         </LinearLayout>
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/explore_rec"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -126,12 +120,6 @@
 
 
         </LinearLayout>
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recommended_rec"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp" />
 
     </LinearLayout>
 
